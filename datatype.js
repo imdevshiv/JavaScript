@@ -21,7 +21,7 @@
  * we can know the data of a value by using typeof operator
  * it gives us a string indicating the type of variable or expression
  */
-
+// debugger; keywords helps to debug code
 x = 25;
 y = "Shiv";
 z = false;
@@ -49,7 +49,7 @@ console.log(+false); //output: 0
 
 console.log(+true); //output: 1
 
-// +"String" Type coercion :- is the process by which the language automatically converts values 
+// +"String" Type coercion :- is the process by which the language automatically converts values
 // from one type to another when performing operations.
 
 console.log(+"25s"); //output:NaN
@@ -61,4 +61,4 @@ console.log(+"13" + 13); //output:26 number
 console.log("13" - 13); //output:0 number   Type coercion
 
 console.log(parseInt("25225shiv")); //output:25225 number
-console.log(parseInt('s25')) //output:NaN
+console.log(parseInt("s25")); //output:NaN
