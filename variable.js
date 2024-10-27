@@ -48,6 +48,12 @@
  *
  *      scope help in encapsulation
  *
+ *    **Rule to name a Variable**
+ *    i. Capital letter:A to Z
+ *    ii. small letter: a to z
+ *    iii. Digit: 0 to 9 (But shouldn't start with it)
+ *    iv. Two special character are allowed $ and _
+ *
  */
 
 // var example
