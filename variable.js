@@ -1,4 +1,5 @@
 // Variable in JavaScript
+// Variable is just like a container which store data in it
 //  variable Declaration in JavaScript
 /** In JavaScript let,const and var are used to declare a variable
  * we can declare a variable in Js without using let const and var .
@@ -38,15 +39,15 @@
  *         JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of
  *             functions, variables, classes, or imports to the top of their scope, prior to execution of the code.
  *        imp. Hoisting is not a term normatively defined in the ECMAScript specification.
- * 
- * 
+ *
+ *
  *      *Scope *
- *      Function Scope:- var is function scope which means we can't access var variable outside a function 
- *            
- *      block scope :- meaning the variable declare inside a block if() for while outside of this block we cant assess this variable 
- *     
- *      scope help in encapsulation 
- * 
+ *      Function Scope:- var is function scope which means we can't access var variable outside a function
+ *
+ *      block scope :- meaning the variable declare inside a block if() for while outside of this block we cant assess this variable
+ *
+ *      scope help in encapsulation
+ *
  */
 
 // var example
@@ -73,9 +74,9 @@ console.log(y);
   console.log(b);
   const c = 6;
   console.log(c);
-  b=7
-//   c=8 //Error:- Assignment to constant variable.
-  console.log(b)
-  console.log(c)
+  b = 7;
+  //   c=8 //Error:- Assignment to constant variable.
+  console.log(b);
+  console.log(c);
 }
 // console.log(b); ReferenceError: b is not defined
